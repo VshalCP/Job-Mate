@@ -1,0 +1,44 @@
+
+.h_left > img{
+   object-fit: contain;
+   height: 45px;
+   margin-right: 10px;
+}
+.header {
+   position: sticky;
+   top: 0px;
+   display: flex;
+   background-color: white;
+   justify-content: space-evenly;
+   border-bottom: 0.1px solid lightgray;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   z-index: 125;
+}
+.h_left {
+    display: flex;
+}
+
+.h_sarch {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: dark gray;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #eef3f8;
+}
+
+.h_sarch > input {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.h_right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

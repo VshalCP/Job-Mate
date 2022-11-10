@@ -1,0 +1,96 @@
+.sider {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.sider_avatar{
+    margin-bottom: 10px;
+}
+.sider_top > h4 {
+    color: gray;
+    font-size: 16px;
+}
+.sider_top > h2 {
+    font-size: 18px;
+}
+.sider_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.sider_top > img {
+    margin-bottom: -20px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.sider_stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sider_states {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.sider_stat > p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sider_statenumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+.sider_bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.sider_bottom > p {
+    font-size: 15px;
+    padding-bottom: 13px;
+}
+
+.sider_recent {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.sider_recent:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sider_hash {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
